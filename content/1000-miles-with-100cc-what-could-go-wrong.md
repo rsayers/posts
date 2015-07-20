@@ -1,7 +1,7 @@
 Title: 1000 Miles with 100cc. What could go wrong?
 Date: 2012-11-27 00:58:00+00:00
 Category: travel
-Tags: travel, scooters 
+Tags: travel, scooters
 
 This Thanksgiving I trekked home as I do every year to feast with the family.
 To spice things up a bit, I decided to make the trip on my SYM Symba.
@@ -94,6 +94,3 @@ that it wouldn't leave me stranded.  I can't wait to make another epic trip,
 but next time I'll make sure I don't have to cross so many miles in such a
 short span of time.  I'd rather have the time to check out the odd scenic
 overlook or historical sight, or be able to snap a few more photos.
-
- 
-
