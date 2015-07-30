@@ -24,11 +24,11 @@ The solution I came up with is perhaps a little convoluted, but works well given
 4. A cron job runs another script, and if that script finds the file created in step 3, it proceeds, and otherwise exits.
 5. The script will rebuild my site, and then upload it to my webhost.
 
-**** The web-hook
+**The web-hook**
 
 Webhooks allow you to hit a specified URL when a certain action occurs.  I won't get into detail here, as Github already has some [excellent documentation on this feature](https://developer.github.com/webhooks/). I setup mine to hit a small php script on a machine where I can more or less run and install what I like,  I set it to run on the "push" event only,  and set a secret value.  This secret allows you to make sure no one else can hit that url.  In my case however,  even if someone got the url and spammed it,  it would just cause my site to regenerate every 30 minutes.  Even so,  It's good practice to secure this stuff, so I used a random string here.  You'll need this on the next step.
 
-**** The web-hook target
+**The web-hook target**
 
 Even though I avoid PHP as much as possible,  it's great for little one off tasks like this.  This is the script I set as the target for my web-hook in the previous step:
 
@@ -36,7 +36,7 @@ Even though I avoid PHP as much as possible,  it's great for little one off task
 
 You will of course replace "MY_SECRET_KEY" with the sercret you specified in the previous step.  Once this validates that the key is legit,  it simply creates a file, the contents are not important.
 
-**** The deployment script
+**The deployment script** 
 
 I use cron to schedule a script that will check for the existance of that file created in the previous step, and then do a deployment when it is found
 
@@ -47,10 +47,3 @@ I had some issues setting up ssh keys with my host, so I'm using FTP instead.  T
 ### The Result
 
 In the end, I end up with a nice system that doesn't require me to do much beyond typing up a post and saving it, just like I would in a full fledged CMS.  I looked at other solutions for doing git-based deployments, and none of them worked with my exact setup, so hopefully this will be of some use if you are wreslting with the same issue.
-
-
-
-
-
-
-
