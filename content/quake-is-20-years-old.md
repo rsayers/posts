@@ -1,0 +1,17 @@
+Title: Quake is 20 Years Old
+Date: 2016-06-23 18:21:15+00:00
+
+<img src="/static/images/2017/01/12494-quake-dos-front-cover.jpg"><br><br>
+If you follow gaming at all, you've doubtless seen multiple posts celebrating the 20th anniversary of Quake 1.  Technically, it was the release of the shareware version.  The full version came out a bit later.
+
+If you started gaming after that game was released, it's hard to imagine the impact it had.  Before this, the most advanced game out at the time was probably Duke Nukem 3D, and Doom 2 was not far off from that.  Quake was leaps and bounds more advanced, with true 3d worlds, the ability to move around like you couldn't in other games, and graphics that were just amazing for their time.  I still recall the first time I fired a rocket down a hallway and saw as the light traveled along with it.  It seems like a given now, but this was the first time any of that stuff had been done in a large scale game.
+
+I purchased the full version over winter break in 1996,  when I got back to school, I brought my disc with me to let my best friend borrow (sorry id, we were 15 and poor), and it turns out, he also bought the game and brought this disc with him!  I asked if he had played online yet.  He was not aware that was even possible.  The next day he arrived at school looking a bit like a zombie, informing me that he stayed up all night played and had not gone to sleep at all.
+
+This game was not good for our grades.
+
+The community that popped up around this game was pretty incredible.  Today most of your gaming news sites are owned by large media companies.  Back in the 90's, before the gaming industry made so much money, they were all pretty much fan sites.  Even the now defunct Planet Quake which was part of IGN started as a fan site before it became part of a larger network.  The intentional openness of the game spawned countless modifications of game code, maps, and artwork.  This was a really cool phase because it was before modding was seen as a jumping off point for a career in game development.  I was personally involved in a few different projects that I don't think ever saw releases.  I also had the privilege of writing for a few sites. I ran a couple myself at some points, I wrote for NakedMan's TC (total conversion) News, and also did news for [Quake2.com](http://www.quake2.com/) which, holy shit, is still up!
+
+In my opinion, the most ground breaking aspect of the game was internet play.  For the first time, you could, without paying any fees, using any companies lobby, or anything like that, get online and deathmatch other people around the world.  With so many games since then no longer playable, because the publishers have discontinued online services, this decision by Id to keep things decentralized has managed to keep the game going well past it's expiration date.  Just last night I hopped on a server and played for about an hour, just like I was doing 20 years ago. That's seriously cool.  Gaming online now is a given for most multiplayer games, but it was ground breaking when Quake introduced it and really set the stage for how it would be done going forward.
+
+I suppose this post was more of a nostalgic ramble than anything else. But I couldn't let this anniversary go by without saying something about it.  Hopefully I'll still be rocketjumping over llamas (it's what we called n00bs back in the 90's) 20 years from now.
