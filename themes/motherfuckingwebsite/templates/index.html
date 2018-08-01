@@ -2,10 +2,10 @@
 {% block content_title %}{% endblock %}
 {% block content %}
 {% if articles %}
-{% for article in articles %}
+{% for article in articles_page.object_list %}
 
 {# First item #}
-{% if loop.first %}
+
 <header>
   <h2><a href="{{ SITEURL }}" id="site-title"> {# {{ SITENAME }} #} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a> {#:#} <a href="{{ SITEURL }}/{{ article.url }}" id="page-title">{{ article.title }}</a></h2>
   {% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}
@@ -14,19 +14,9 @@
 <article>
   {{ article.content }}
 </article>
-{% if loop.length > 1 %}
-<section>
-  <h2>All posts</h2>
-  <ol>
-    {% endif %}
-    {# other items #}
-    {% else %}
-    <li><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></li>
-    {% endif %}
+
     {% endfor %}
-    {% if loop.length > 1 %}
-  </ol>
-</section>
+    
 {% endif %}
 {% else %}
 No posts found.
